@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: UfgovWeb
+  datasource:
+    url: jdbc:mysql://192.168.31.16:3307/merchantsTest
+    username: root
+    password: 123456
+server:
+  port: 9527
+  servlet:
+    context-path: /ufgovweb
